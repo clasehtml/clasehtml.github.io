@@ -1,0 +1,13 @@
+#cloud-config
+autoinstall:
+  version: 1
+  identity:
+    hostname: ubuntu-desatendida
+    password: "$y$j9T$Q0fMAkCg.dqdTSXNcBAJ3.$cXiJQBD/M7nAmr/Nwaie1Ke1SjbZm3aEUo7zDhVRArB"
+    username: usuario
+  packages:
+    - vim
+    - nano
+    - neofetch
+    - emacs
+    - gdb
